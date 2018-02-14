@@ -12,14 +12,14 @@
 	border: 1px solid; 
 }
 .wrap {
-	background: #95242a;
+	background: #c1d8de;
 	width: 800px;
 	border: 1px solid;
 	margin: 20px auto;
 	padding: 10px;	
 }
 .main {
-	background: #dd919d;
+	background: #5d8c96;
 	height: 400px;
 	width: 350px;
 	border: 1px solid;
@@ -28,7 +28,7 @@
 	padding: 10px;
 }
 .sidebar {
-	background: #dd919d;
+	background: #5d8c96;
 	height: 400px;
 	width: 300px;
 	border: 1px solid;
@@ -41,7 +41,7 @@
 	clear: both;
 }
 .footer {
-	background: #5d8c96;
+	background: #c1d8de;
 	height: 150px;
 	width: 800px;
 	margin: 20px auto;
