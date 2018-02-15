@@ -47,21 +47,12 @@ body {
 	float: right
 }
 
-.imgBig1 img {
+.imgBig img {
 	max-width: 316px;
 	max-height: 266px;
 }
 
-.imgBig1 p {
-	max-width: 316px;
-}
-
-.imgBig2 img {
-	max-width: 316px;
-	max-height: 266px;
-}
-
-.imgBig2 p {
+.imgBig p {
 	max-width: 316px;
 }
 
@@ -69,7 +60,6 @@ body {
 	padding: 0px 30px 25px 0px;
 	float: left;
 }
-
 .imgSmall img {
 	max-width: 200px;
 	max-height: 260px;
@@ -79,17 +69,22 @@ body {
 	max-width: 200px;
 }
 
+.clear{
+	clear: both;
+}
+
 button {
 	background: #cf5b4e;
 	border: none;
 	width: 100%;
+	margin-bottom: 10px;
 	padding: 10px 0;
 	color: #fff;
 	font-size: 18px;
 	border-radius: 6px;
 }
 
-.btn a {
+button a {
 	color: #ffffff;
 	text-decoration: none;
 	font-family: Arial, sans-serif;
@@ -112,8 +107,4 @@ button {
 .footer a {
 	font-size: 14px;
 	color: #ffffff;
-}
-
-.imgCont {
-	margin: 0px auto;
 }
