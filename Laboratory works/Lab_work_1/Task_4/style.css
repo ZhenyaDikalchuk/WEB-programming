@@ -3,6 +3,14 @@
 	padding: 0;
 	text-align: center;
 }
+
+.fullwrap {
+	max-width: 900px;
+	background: #cdcdcd;
+	margin: 0px auto;
+	border: 1px solid;
+}
+
 .header {
 	background: #c1d8de;
 	height: 100px;
