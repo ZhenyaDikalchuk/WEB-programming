@@ -1,8 +1,6 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	font-size: 20px;
-	font-family: Arial, sans-serif;
 }
 
 body {
@@ -26,29 +24,44 @@ body {
 
 .main {
 	background: #ffffff;
-	padding: 55px 50px 30px;
+	padding: 55px 60px 30px;
 }
 
 .text {
+	font-size: 20px;
+	line-height: 1.3;
+	font-family: Arial, sans-serif;
 	margin-top: 5px;
-	margin-bottom: 20px;  
+	margin-bottom: 20px;
+	text-align: left;
 }
 
 .center {
 	text-align: center;
 }
 
-.imgBig {
-	padding: 15px 25px 25px 0px;
+.imgBig1 {
 	float: left;
 }
+.imgBig2 {
+	float: right
+}
 
-.imgBig img {
+.imgBig1 img {
 	max-width: 316px;
 	max-height: 266px;
 }
 
-.imgBig p {
+.imgBig1 p {
+	max-width: 316px;
+}
+
+.imgBig2 img {
+	max-width: 316px;
+	max-height: 266px;
+}
+
+.imgBig2 p {
 	max-width: 316px;
 }
 
@@ -76,13 +89,31 @@ button {
 	border-radius: 6px;
 }
 
+.btn a {
+	color: #ffffff;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
 .footer {
+	font-family: Arial, sans-serif;
 	padding-top: 30px;
 	padding-bottom: 25px;
 	color: #ffffff;
-	font-size: 16px;
+}
+
+.textFooter {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 .footer a {
+	font-size: 14px;
 	color: #ffffff;
+}
+
+.imgCont {
+	margin: 0px auto;
 }
