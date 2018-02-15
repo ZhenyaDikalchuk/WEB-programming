@@ -24,7 +24,7 @@ body {
 
 .main {
 	background: #ffffff;
-	padding: 55px 60px 30px;
+	padding: 55px 60px 10px;
 }
 
 .text {
@@ -57,7 +57,11 @@ body {
 }
 
 .imgSmall {
-	padding: 0px 30px 25px 0px;
+	float: left;
+	margin-right: 40px;
+}
+
+.imgSmallL {
 	float: left;
 }
 .imgSmall img {
@@ -65,7 +69,16 @@ body {
 	max-height: 260px;
 }
 
+.imgSmallL img {
+	max-width: 200px;
+	max-height: 260px;
+}
+
 .imgSmall p {
+	max-width: 200px;
+}
+
+.imgSmallL p {
 	max-width: 200px;
 }
 
@@ -77,7 +90,7 @@ button {
 	background: #cf5b4e;
 	border: none;
 	width: 100%;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	padding: 10px 0;
 	color: #fff;
 	font-size: 18px;
