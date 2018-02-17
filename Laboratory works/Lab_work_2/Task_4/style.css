@@ -1,35 +1,35 @@
 * {
 	margin: 0;
 }
+
 body {
-	font-famili: Verdana, Tahoma, sans-serif;
+	font-family: Verdana, Tahoma, sans-serif;
 }
 
 .main {
-
 	width: 500px;
-	margin 50px;
-	b0rder: 1px solid #666;
+	margin: 50px;
+	border: 1px solid #666;
 	padding-bottom: 10px;
 }
 
-.main-img 
+.main-img { 
 	width: 100%;
 }
 
-.h2 {
-	textalign:  center;
-	margin: 20xp;
+h2 {
+	text-align: center;
+	margin: 20px;
 }
 
 p {
-	font-size: 14;
-	lne-height: 17px;
-	margin 10px;
-	textindent: 15px;
+	font-size: 14px;
+	line-height: 17px;
+	margin: 10px;
+	text-indent: 15px;
 }
 
-it {
-	font-style: italik;
-	color: brawn;
+.it {
+	font-style: italic;
+	color: brown;
 }
