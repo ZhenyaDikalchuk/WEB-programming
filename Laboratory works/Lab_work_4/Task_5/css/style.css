@@ -357,7 +357,7 @@ p.sitemap {
 
     .sidebar {
         float: left;
-        margin: 33px 30px 30px 85px auto;
+        margin: 33px 30px 30px 85px;
     }
 
     .companies .desctop {
