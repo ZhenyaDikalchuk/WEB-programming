@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+
 }
 
 @font-face {
@@ -21,8 +22,16 @@ div {
 	display: block;
 }
 
-.fullwrap {
+.fullwrap, .wrap, .button, .footer {
     position: relative;
+} 
+
+.header, #logo_1, #logo_2, .content {
+    position: absolute;
+}
+
+
+.fullwrap {
 	margin: 0 auto;
 	max-width: 900px;
 	width: 100%;
@@ -31,7 +40,6 @@ div {
 }
 
 .header {
-	position: absolute;
 	height: 108px;
 }
 
@@ -42,14 +50,12 @@ div {
 }
 
 #logo_1 {
-	position: absolute;
 	max-width: 67px;
 	top: 15px;
 	left: 10px;
 }
 
 #logo_2 {
-	position: absolute;
 	max-width: 85px;
 	right: 20px;
 	top: 13px;
@@ -57,7 +63,6 @@ div {
 }
 
 .content {
-	position: absolute;
 	max-width: 500px;
 	padding-right: 10px;
 	padding-left: 90px;
@@ -73,8 +78,6 @@ div {
     font-weight: normal;
     font-stretch: normal;
     font-family: MyriadProSemibold, sans-serif;
-    margin: 0px;
-    padding: 0px;
 }
 
 .content h1 {
@@ -102,16 +105,14 @@ div {
 }
 
 .wrap {
-	position: relative;
     top: 108px;
     overflow: visible;
     background-color: #fff;
     padding-right: 10px;
     padding-left: 10px;
-    clear: both;
 }
 
-.wrap p, h1, h4, ul {
+.wrap p, h1, h4, ul, .thirdContent p, .footer p {
     font-style: normal;
     font-variant-ligatures: normal;
     font-variant-caps: normal;
@@ -121,7 +122,7 @@ div {
     font-stretch: normal;
     font-size: 12px;
     line-height: 20px;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 .firstContent {
@@ -201,15 +202,6 @@ div {
 	float: left;
     width: 48%;
     line-height: 24px;
-    font-style: normal;
-    font-variant-ligatures: normal;
-    font-variant-caps: normal;
-    font-variant-numeric: normal;
-    font-variant-east-asian: normal;
-    font-weight: normal;
-    font-stretch: normal;
-    font-size: 12px;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
     color: #1a2853;
     margin: 0px 0px 12px 0px;
     padding: 0px;
@@ -219,7 +211,6 @@ div {
 }
 
 .button {
-    position: relative;
     background: url(https://mscs.mum.edu/images/bottom.jpg) no-repeat;
     margin: 0px auto;
     margin-left: -15px;
@@ -229,24 +220,13 @@ div {
 }
 
 .footer {
-    position: relative;
     top: 108px;
 }
 
 .footer p {
-    font-style: normal;
-    font-variant-ligatures: normal;
-    font-variant-caps: normal;
-    font-variant-numeric: normal;
-    font-variant-east-asian: normal;
-    font-weight: normal;
-    font-stretch: normal;
     font-size: 11px;
     line-height: 18px;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: 0px;
-    padding: 0px;
 }
 
 p.copyright {
