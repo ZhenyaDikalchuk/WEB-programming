@@ -34,7 +34,7 @@ div {
 	height: 108px;
 }
 
-.header img {
+.header .headerImg {
 	max-width: 900px;
 	width: 100%;
     height: 138px;
@@ -42,16 +42,14 @@ div {
 
 #logo_1 {
 	position: absolute;
-	width: 67px;
-	height: 67px;
+	max-width: 67px;
 	top: 15px;
 	left: 10px;
 }
 
 #logo_2 {
 	position: absolute;
-	width: 85px;
-	height: 82px;
+	max-width: 85px;
 	right: 20px;
 	top: 13px;
 	z-index: 100;
@@ -59,7 +57,7 @@ div {
 
 .content {
 	position: absolute;
-	max-width: 550px;
+	max-width: 500px;
 	padding-right: 10px;
 	padding-left: 90px;
     top: 12px;
@@ -79,7 +77,7 @@ div {
 }
 
 .content h1 {
-	font-size: 1.75vw;
+	font-size: 24px;
     line-height: 28px;
     color: #1a2853;
     margin-bottom: 4px;
@@ -99,8 +97,7 @@ div {
     line-height: 19px;
     color: #7e8285;
     text-transform: uppercase;
-    letter-spacing: 5px;;
-    font-weight: 100;
+    letter-spacing: 5px;
 }
 
 .wrap {
@@ -224,7 +221,7 @@ div {
     margin: 0px auto;
     margin-left: -15px;
     height: 25px;
-    width: 930px;
+    max-width: 930px;
 }
 
 .footer p {
@@ -335,19 +332,22 @@ p.sitemap {
     font-weight: bold;;
 }
 
-@media (max-width: 500px) {
-    .companies img {
+@media screen and (max-device-width: 500px) {
+    body {
+        display: block;
+    }
+    
+    .fullwrap {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .companies .desctop {
         display: none;
     }
 
     .companies .mobile {
         display: block;
         width: 100%;
-    }
-}
-
-@media screen and (max-device-width: 450px) {
-    div {
-        display: block;
     }
 }
