@@ -181,7 +181,7 @@ div {
     margin-bottom: 15px;
 }
 
-.companies img {
+.companies .desktop {
     width: 100%;
 	float: left;
  	clear: right;
@@ -340,7 +340,7 @@ p.sitemap {
         margin: 33px 30px 30px 85px;
     }
 
-    .companies .desctop {
+    .companies .desktop {
         display: none;
     }
 
